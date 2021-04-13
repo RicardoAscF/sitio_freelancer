@@ -40,67 +40,79 @@
                 <img src="img/location.png" alt="" srcset="">
                 <p>Morelia, Mich</p>
             </div>
-            <button>COntactar</button>
+            <a href="" class="boton">Contactar</a>
     </section>
 
 
-    <main>
+    <main class="contenedor sombra">
         <h2>Mis servicios</h2>
 
-        <section>
-            <h3>Diseño WEB</h3>
-            <img src="img/pallete.png" alt="" srcset="">
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et quis quisquam porro libero dolor reiciendis asperiores possimus eos illum deleniti.</p>
-        </section>
+        <div class="servicios">
+            <section class="servicio">
+                <h3>Diseño WEB</h3>
+                    <div class="iconos">
+                        <img src="img/pallete.png" alt="" srcset="">
+                    </div>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et quis quisquam porro libero dolor reiciendis asperiores possimus eos illum deleniti.</p>
+            </section>
+    
+            <section class="servicio">
+                <h3>Aplicaciones WEB</h3>
+                    <div class="iconos">
+                        <img src="img/android.png" alt="" srcset="">
+                    </div>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et quis quisquam porro libero dolor reiciendis asperiores possimus eos illum deleniti.</p>
+            </section>
+    
+            <section class="servicio">
+                <h3>E-Commerce</h3>
+                    <div class="iconos">
+                        <img src="img/card.png" alt="" srcset="">
+                    </div>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et quis quisquam porro libero dolor reiciendis asperiores possimus eos illum deleniti.</p>
+            </section>
+        </div><!--Div Servicios-->
+
 
         <section>
-            <h3>Aplicaciones WEB</h3>
-            <img src="img/android.png" alt="" srcset="">
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et quis quisquam porro libero dolor reiciendis asperiores possimus eos illum deleniti.</p>
-        </section>
+            <h2>Contacto</h2>
+                <form action="" class="formulario">
+                    <fieldset>
+                        <legend>Contactame</legend>
+                    <div class="contenedor-campos">
+                        <div class="campo">
+                        <label for="" placeholder="Escribe tu Nombre">Nombre</label>
+                        <input class="input-text" type="text">
+                    </div>
 
-        <section>
-            <h3>E-Commerce</h3>
-            <img src="img/card.png" alt="" srcset="">
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et quis quisquam porro libero dolor reiciendis asperiores possimus eos illum deleniti.</p>
+
+                    <div class="campo">
+                        <label for="" placeholder="Escribe tu Telefono">Telefono</label>
+                        <input class="input-text" type="tel">
+                    </div>
+
+                    <div class="campo">
+                        <label for="" placeholder="Escribe tu Correo electronico">Correo</label>
+                        <input class="input-text" type="email">
+                    </div>
+
+                    <div class="campo">
+                        <label for="">Mensaje</label>
+                        <textarea class="input-text" name="" id="" cols="30" rows="10"></textarea>
+                    </div>
+                    </div><!--Contenedor campos-->
+                   
+                </fieldset>
+                <div class="flex flex-end">
+                    <input class="boton enviar w-100" type="submit" value="Enviar">
+                </div>
+            </form>
         </section>
     </main>
 
-    <section>
-        <h2>Contacto</h2>
-        <form action="">
-            <fieldset>
-                <legend>Contactame</legend>
-                <div>
-                    <label for="" placeholder="Escribe tu Nombre">Nombre</label>
-                    <input type="text">
-                </div>
+   
 
-
-                <div>
-                    <label for="" placeholder="Escribe tu Telefono">Telefono</label>
-                    <input type="tel">
-                </div>
-
-                <div>
-                    <label for="" placeholder="Escribe tu Correo electronico">Correo</label>
-                    <input type="email">
-                </div>
-
-                <div>
-                    <label for="">Mensaje</label>
-                    <textarea name="" id="" cols="30" rows="10"></textarea>
-                </div>
-
-                <div>
-                    <input type="submit" value="Enviar">
-                </div>
-              
-            </fieldset>
-        </form>
-    </section>
-
-    <footer>
+    <footer class="footer">
         <p>Todos los derechos resevados</p>
     </footer>
 
